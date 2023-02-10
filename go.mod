@@ -39,6 +39,7 @@ require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sapmexporter v0.72.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sentryexporter v0.72.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter v0.72.0
+	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sysdigexporter v0.72.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/skywalkingexporter v0.72.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/splunkhecexporter v0.72.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sumologicexporter v0.72.0
@@ -497,6 +498,7 @@ require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheus v0.72.0 // indirect
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheusremotewrite v0.72.0 // indirect
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/signalfx v0.72.0 // indirect
+	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/sysdig v0.72.0 // indirect
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/zipkin v0.72.0 // indirect
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/winperfcounters v0.72.0 // indirect
 	github.com/opencontainers/go-digest v1.0.0 // indirect
@@ -748,6 +750,8 @@ replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sentr
 
 replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter => ./exporter/signalfxexporter
 
+replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sysdigexporter => ./exporter/sysdigexporter
+
 replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/skywalkingexporter => ./exporter/skywalkingexporter
 
 replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/splunkhecexporter => ./exporter/splunkhecexporter
@@ -823,6 +827,8 @@ replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator
 replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheusremotewrite => ./pkg/translator/prometheusremotewrite
 
 replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/signalfx => ./pkg/translator/signalfx
+
+replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/sysdig => ./pkg/translator/sysdig
 
 replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/zipkin => ./pkg/translator/zipkin
 

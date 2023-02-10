@@ -68,6 +68,7 @@ import (
 	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/skywalkingexporter"
 	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/splunkhecexporter"
 	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sumologicexporter"
+	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sysdigexporter"
 	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/tanzuobservabilityexporter"
 	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/tencentcloudlogserviceexporter"
 	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/zipkinexporter"
@@ -346,6 +347,7 @@ func Components() (otelcol.Factories, error) {
 		sapmexporter.NewFactory(),
 		sentryexporter.NewFactory(),
 		signalfxexporter.NewFactory(),
+		sysdigexporter.NewFactory(),
 		skywalkingexporter.NewFactory(),
 		splunkhecexporter.NewFactory(),
 		sumologicexporter.NewFactory(),

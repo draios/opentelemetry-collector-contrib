@@ -67,6 +67,7 @@ body:
       - exporter/skywalking
       - exporter/splunkhec
       - exporter/sumologic
+      - exporter/sysdig
       - exporter/tanzuobservability
       - exporter/tencentcloudlogservice
       - exporter/zipkin
@@ -114,6 +115,7 @@ body:
       - pkg/translator/prometheus
       - pkg/translator/prometheusremotewrite
       - pkg/translator/signalfx
+      - pkg/translator/sysdig
       - pkg/translator/zipkin
       - pkg/winperfcounters
       - processor/attributes

@@ -1,0 +1,16 @@
+receivers:
+  opencensus:
+exporters:
+  sysdig:
+    endpoint: "https://some-url/to-sysdig-prw"
+    bearer_token: "token"
+    external_labels:
+      server: example_label
+service:
+  telemetry:
+    logs:
+      level: "debug"
+  pipelines:
+    metrics:
+      receivers: [opencensus]
+      exporters: [sysdig]

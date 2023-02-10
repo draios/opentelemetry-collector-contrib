@@ -53,6 +53,7 @@ require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sapmexporter v0.72.0 // indirect
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sentryexporter v0.72.0 // indirect
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter v0.72.0 // indirect
+	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sysdigexporter v0.72.0 // indirect
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/skywalkingexporter v0.72.0 // indirect
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/splunkhecexporter v0.72.0 // indirect
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sumologicexporter v0.72.0 // indirect
@@ -88,6 +89,7 @@ require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheus v0.72.0 // indirect
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheusremotewrite v0.72.0 // indirect
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/signalfx v0.72.0 // indirect
+	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/sysdig v0.72.0 // indirect
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/zipkin v0.72.0 // indirect
 	github.com/open-telemetry/opentelemetry-collector-contrib/processor/attributesprocessor v0.72.0 // indirect
 	github.com/open-telemetry/opentelemetry-collector-contrib/processor/cumulativetodeltaprocessor v0.72.0 // indirect
@@ -1039,3 +1041,7 @@ replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/filte
 retract v0.65.0
 
 replace github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sshcheckreceiver => ../../receiver/sshcheckreceiver
+
+replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/sysdig => ../../pkg/translator/sysdig
+
+replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sysdigexporter => ../../exporter/sysdigexporter

@@ -208,6 +208,9 @@ func TestDefaultExporters(t *testing.T) {
 			},
 		},
 		{
+			exporter: "sysdig",
+		},
+		{
 			exporter: "zipkin",
 			getConfigFn: func() component.Config {
 				cfg := expFactories["zipkin"].CreateDefaultConfig().(*zipkinexporter.Config)
