@@ -62,6 +62,7 @@ module-sets:
       - github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sapmexporter
       - github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sentryexporter
       - github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter
+      - github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sysdigexporter
       - github.com/open-telemetry/opentelemetry-collector-contrib/exporter/skywalkingexporter
       - github.com/open-telemetry/opentelemetry-collector-contrib/exporter/splunkhecexporter
       - github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sumologicexporter
@@ -120,6 +121,7 @@ module-sets:
       - github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheus
       - github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheusremotewrite
       - github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/signalfx
+      - github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/sysdig
       - github.com/open-telemetry/opentelemetry-collector-contrib/pkg/winperfcounters
       - github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/zipkin
       - github.com/open-telemetry/opentelemetry-collector-contrib/processor/attributesprocessor
